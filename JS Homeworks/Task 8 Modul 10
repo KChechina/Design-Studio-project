@@ -1,9 +1,0 @@
-let myMap = new Map();
-
-myMap.set('x', 'y');
-myMap.set(1, 'one');
-myMap.set(true, 'правда');
-
-for (let key of myMap.keys()){
-    console.log('Ключ - ' + key + ',' + ' значение - ' + myMap.get(key));
-}

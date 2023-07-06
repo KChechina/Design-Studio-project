@@ -1,9 +1,0 @@
-const arr = [1, 5, 7, 9, 25, 34];
-
-console.log(arr.length);
-
-let result = arr.map(function (item, index, array){
-    return item;
-});
-
-console.log(result);

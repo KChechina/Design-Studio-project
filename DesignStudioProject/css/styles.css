@@ -212,6 +212,13 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
     border-bottom: #E3B873 solid 1px;
     padding-bottom: 6.68px;
     transition: all 0.3s ease;
+    cursor: pointer;
+}
+.active_link{
+    color: rgba(227, 184, 115, 1);
+    border-bottom: #E3B873 solid 1px;
+    padding-bottom: 6.68px;
+    transition: all 0.3s ease;
 }
 .projects__card{
     display: flex;
@@ -250,6 +257,7 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
     margin-right: 34px;
     min-width: 161px;
     margin-bottom: 34px;
+    min-height: 67px;
 }
 .details_title {
     font-family: Yeseva One;
@@ -269,6 +277,7 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+    max-width: 100px;
 }
 .card__img {
     max-width: 679px;
@@ -304,6 +313,10 @@ margin-right: 17.54px;
     background: #FFFFFF;
     transition: all 0.4s;
     cursor: pointer;
+}
+.active{
+    background: #FFFFFF;
+    transition: all 0.4s;
 }
 .slider__arrow{
     margin-right: 29.5px;
@@ -1106,6 +1119,9 @@ input::placeholder {
     .intro{
         min-height: 476px;
         background-image: url("../images/image\ 4.7.jpg");
+    }
+    .intro__container {
+        justify-content: center;
     }
     .intro__block{
         padding: 85px 18px 0;
